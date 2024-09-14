@@ -20,6 +20,9 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <DocumentationFile>Unchase.Swashbuckle.AspNetCore.Extensions.xml</DocumentationFile>
     <Title>Unchase.Swashbuckle.AspNetCore.Extensions</Title>
+    <PackageId>Unchase.Swashbuckle.AspNetCore.ExtensionsWithStorngName</PackageId>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>temp.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
